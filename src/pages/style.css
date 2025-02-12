@@ -1,0 +1,208 @@
+/* Reset margin and padding for body and html */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ede3e3;
+}
+
+input {
+  width: 100%;
+  max-width: 400px; /* Restrict max width */
+  padding: 15px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  max-width: 400px; /* Match input width */
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004085;
+}
+
+/* Chat History */
+ul {
+  margin-top: 150px;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.ask {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Ensure full viewport height */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  gap: 20px; /* Add spacing between elements */
+}
+
+
+/* Overall page container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Ensure full viewport height */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    gap: 20px; /* Add spacing between elements */
+    margin-left: 600px;
+  }
+
+  .ask {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Ensure full viewport height */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    gap: 20px; /* Add spacing between elements */
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px; /* Optional, adjust width */
+  }
+
+.chat-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.user-question {
+  background-color: #e9f7ff;
+  padding: 10px;
+  border-radius: 5px;
+  color: #007bff;
+}
+
+.ai-response {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  color: #333;
+}
+
+/* Chat input section at the bottom of the chat history */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px; /* Restrict max width */
+}
+
+.chat-container input {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+.chat-container button {
+  padding: 15px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.chat-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Logout Button - position in top right corner */
+.logout-btn {
+  width: 100%;
+  max-width: 150px; /* Match input width */
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+/* Go to Login button styling */
+.go-to-login-btn,
+.go-to-register-btn {
+  width: 100%;
+  max-width: 400px; /* Match input width */
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #28a745; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px; /* Ensure there's space between the buttons */
+}
+
+.go-to-login-btn,
+.go-to-register-btn:hover {
+  background-color: #218838;
+}
+
+.go-to-login-btn,
+.go-to-register-btn:active {
+  background-color: #1e7e34;
+}
